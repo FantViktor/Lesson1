@@ -12,13 +12,13 @@ Math.sqrt
 =end
 
 puts "Введите первую сторону треугольника"
-a =gets.chomp.to_i
+a = gets.chomp.to_i
 
 puts "Введите вторую сторону треугольника"
-b =gets.chomp.to_i
+b = gets.chomp.to_i
 
 puts "Введите третью сторону треугольника"
-c =gets.chomp.to_i
+c = gets.chomp.to_i
 
 d = b ** 2 - 4 * a * c
 puts "Дискриминант равен #{d}"
